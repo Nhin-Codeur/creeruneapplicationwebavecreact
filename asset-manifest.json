@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/creeruneapplicationwebavecreact/static/css/main.9fbc7de3.css",
-    "main.js": "/creeruneapplicationwebavecreact/static/js/main.2fb18b26.js",
-    "static/js/787.194455ed.chunk.js": "/creeruneapplicationwebavecreact/static/js/787.194455ed.chunk.js",
+    "main.css": "/creeruneapplicationwebavecreact/static/css/main.343e9e86.css",
+    "main.js": "/creeruneapplicationwebavecreact/static/js/main.ddbdf3e0.js",
     "static/media/image-source-2.png": "/creeruneapplicationwebavecreact/static/media/image-source-2.6409af8db1576308fb2b.png",
     "static/media/image-source-1.png": "/creeruneapplicationwebavecreact/static/media/image-source-1.ac3aa7396c2c7cd05e2e.png",
     "index.html": "/creeruneapplicationwebavecreact/index.html",
     "static/media/emptystar.svg": "/creeruneapplicationwebavecreact/static/media/emptystar.afb5c361d3cd347bd08c4f5257c7812e.svg",
     "static/media/fullstar.svg": "/creeruneapplicationwebavecreact/static/media/fullstar.e50026e731be86ce35c12132088d9466.svg",
     "static/media/arrow.svg": "/creeruneapplicationwebavecreact/static/media/arrow.e1c831f025531aaa34d3eb308a748ce2.svg",
-    "main.9fbc7de3.css.map": "/creeruneapplicationwebavecreact/static/css/main.9fbc7de3.css.map",
-    "main.2fb18b26.js.map": "/creeruneapplicationwebavecreact/static/js/main.2fb18b26.js.map",
-    "787.194455ed.chunk.js.map": "/creeruneapplicationwebavecreact/static/js/787.194455ed.chunk.js.map"
+    "main.343e9e86.css.map": "/creeruneapplicationwebavecreact/static/css/main.343e9e86.css.map",
+    "main.ddbdf3e0.js.map": "/creeruneapplicationwebavecreact/static/js/main.ddbdf3e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fbc7de3.css",
-    "static/js/main.2fb18b26.js"
+    "static/css/main.343e9e86.css",
+    "static/js/main.ddbdf3e0.js"
   ]
 }
