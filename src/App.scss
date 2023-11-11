@@ -1,0 +1,391 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  margin-bottom: 40px;
+
+  .accueuil {
+    margin-right: 20px;
+  }
+}
+
+
+
+.current {
+  border-bottom: 4px solid white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+
+
+.App {
+  text-align: center;
+  width: 81%;
+  margin: 0 auto;
+  padding-top: 20px;
+  flex: 1 0 auto;
+}
+
+.nav {
+  color: #FF6060;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .App-logo {
+    height: 68px;
+  }
+
+  .links-in-nav a {
+    color: #FF6060;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .links-in-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .accueil {
+    margin-right: 20px;
+  }
+}
+
+.App-header {
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.home-pub {
+  position: relative;
+  text-align: center;
+
+  img {
+    filter: brightness(60%);
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    color: white;
+  }
+}
+
+.home-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  justify-content: center;
+
+}
+
+.locationCard {
+  display: flex;
+  height: 340px;
+  width: 340px;
+  background-color: #FF6060;
+  align-items: end;
+  margin: 35px;
+  border-radius: 15px;
+  overflow: hidden;
+
+
+  img {
+    filter: brightness(60%);
+    border-radius: 15px;
+  }
+
+  span {
+    width: 120px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+    text-align: start;
+    position: absolute;
+  }
+}
+
+.fiche-logement {
+  color: #FF6060;
+  width: fit-content;
+
+
+
+  &>img {
+    border-radius: 30px;
+    height: 415px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &>.logement-infos {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+    &>.left-and-right-infos {
+      display: flex;
+      justify-content: space-between;
+
+      &>.left-infos {
+        display: flex;
+        flex-direction: column;
+      }
+
+      &>.right-infos {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: space-evenly;
+      }
+    }
+
+
+
+    .host {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &>.host-image {
+        border-radius: 60px;
+        height: 64px;
+        width: 64px;
+        margin-left: 30px;
+      }
+
+      &>span {
+        width: 50px;
+        display: inline-block;
+      }
+    }
+
+
+
+    .titre {
+      font-size: 36px;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+
+    .adresse {
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .tags {
+      margin: 30px 0px;
+
+      &>span {
+        background-color: #FF6060;
+        color: white;
+        border-radius: 10px;
+        margin-right: 10px;
+        padding: 3px 20px;
+        width: 115px;
+        margin-top: 10px;
+
+      }
+    }
+  }
+
+
+
+}
+
+
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+
+  &>.error {
+    font-size: 200px;
+    font-weight: 500;
+    color: #FF6060;
+    margin-bottom: 30px;
+  }
+
+  &>.oups {
+    font-size: 36px;
+    color: #FF6060;
+    margin-bottom: 70px;
+    font-weight: 400;
+  }
+
+  &>a {
+    margin-bottom: 50px;
+    color: #FF6060;
+  }
+}
+
+.equipements-et-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &>.dropdown {
+    width: 45%;
+  }
+}
+
+
+.a-propos {
+
+
+  &>img {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 100%;
+    filter: brightness(0.7);
+  }
+
+  &>.dropdown-list {
+    width: 85%;
+    margin: 0 auto;
+
+    &>.dropdown {
+      margin-top: 20px;
+    }
+  }
+
+}
+
+
+.footer {
+  flex-shrink: 0;
+  flex-direction: column;
+  height: 209px;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+  .App-logo {
+    margin-bottom: 30px;
+    padding-top: 40px;
+  }
+}
+
+@media all and (max-width: 1012px) {
+
+  .home-pub {
+    &>img {
+      height: 111px;
+    }
+
+    &>span {
+      width: 203px;
+      text-align: left;
+      font-size: 24px;
+      left: 10%;
+      transform: translate(-10%, -50%);
+    }
+  }
+
+  .home-gallery {
+    background-color: white;
+
+    &>.locationCard {
+      margin: 15px 0px;
+      width: 100%;
+
+
+    }
+  }
+
+  .nav {
+    &>.App-logo {
+      height: 47px;
+      width: 145px;
+    }
+  }
+
+  .left-and-right-infos {
+    flex-direction: column;
+
+    .adresse {
+      margin-top: 15px;
+    }
+
+    &>.right-infos {
+      flex-direction: row-reverse !important;
+      justify-content: space-between !important;
+      margin-bottom: 25px;
+    }
+
+    .rating {
+
+      margin: auto 0;
+
+      &>img {
+
+        margin-right: 10px;
+        height: 18px;
+        width: 18px;
+      }
+    }
+  }
+
+  .equipements-et-description {
+    flex-direction: column;
+
+
+    &>.dropdown {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+
+  .a-propos>.dropdown-list {
+    width: 100%;
+  }
+
+}
